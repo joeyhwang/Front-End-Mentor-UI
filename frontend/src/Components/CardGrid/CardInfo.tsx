@@ -20,7 +20,7 @@ export const CardInfo: CardInfoProps[][] =
     }],
     [
         {
-            title: 'Four card Feature Section',
+            title: 'Four Card Feature Section',
             img: '/assets/four-card-feature-section.png',
             link: 'https://joeyhwang-four-card-feature-section.netlify.app/'
         },
