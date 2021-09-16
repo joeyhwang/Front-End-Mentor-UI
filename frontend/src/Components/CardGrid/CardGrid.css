@@ -1,0 +1,23 @@
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+    gap: 2.5rem;
+}
+
+.card_difficulty {
+    margin:2rem 0;    
+}
+
+@media (max-width: 60rem) { 
+    .card_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 40rem) { 
+    .card_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2rem 10rem;
+}
+
+.text_header {
+  padding-top: 2rem;
+  font-size: 4rem;
+}
+
+
+@media (max-width: 60rem) { 
+  .App-header {
+    padding: 2rem 5rem;
+  }
+
+  
+  .text_header {
+    font-size: 3rem
+  }
+}
+
+@media (max-width: 40rem) { 
+  .App-header {
+    padding: 0rem 2.5rem;
+  }
+
+}
